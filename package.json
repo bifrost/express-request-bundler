@@ -2,16 +2,16 @@
   "name": "express-request-bundler",
   "version": "0.1.0",
   "description": "Middleware for bundling requests in ExpressJS",
-  "main": "express-request-bundler.js",
+  "main": "dist/express-request-bundler.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:jonatanpedersen/express-request-bundler.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "keywords": [
-    "reqeusts",
+    "requests",
     "bundling",
     "middleware",
     "express"
@@ -20,5 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.12.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
   }
 }
