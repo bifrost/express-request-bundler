@@ -2,7 +2,7 @@
   "name": "express-request-bundler",
   "version": "0.1.0",
   "description": "Middleware for bundling requests in ExpressJS",
-  "main": "dist/express-request-bundler.js",
+  "main": "src/express-request-bundler.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:jonatanpedersen/express-request-bundler.git"
