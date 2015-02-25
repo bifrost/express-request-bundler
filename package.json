@@ -1,0 +1,24 @@
+{
+  "name": "express-request-bundler",
+  "version": "0.1.0",
+  "description": "Middleware for bundling requests in ExpressJS",
+  "main": "express-request-bundler.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jonatanpedersen/express-request-bundler.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reqeusts",
+    "bundling",
+    "middleware",
+    "express"
+  ],
+  "author": "Jonatan Pedersen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.0"
+  }
+}
