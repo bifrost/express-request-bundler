@@ -1,5 +1,7 @@
 # Express Request Bundler
 
+[![Build Status](https://travis-ci.org/jonatanpedersen/express-request-bundler.svg?branch=master)](https://travis-ci.org/jonatanpedersen/express-request-bundler)
+
 ## Install
 
 ```bash
