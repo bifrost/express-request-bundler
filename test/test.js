@@ -86,7 +86,7 @@ describe('api', function() {
 	});	
 });
 
-describe('express-request-bundler', function() {
+describe('api/bundle', function() {
 	describe('GET /api/bundle?users=/api/users&user1=/api/users/1', function(){
 		
 		it('should respond with 200', function(done){
