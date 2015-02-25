@@ -72,6 +72,8 @@ function errors(statusCodes)  {
 
 var create = function() {
 	return function(request, response, next) {
+		response.setHeader('Content-Type', 'application/json');
+
 		response.write('{');
 
 		var query = request.query;
