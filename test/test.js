@@ -1,6 +1,6 @@
 var request = require('supertest')
   , express = require('express')
-  , erb = require("../src/express-request-bundler");
+  , erb = require("../index.js");
 
 var app = express();
 
