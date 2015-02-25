@@ -5,14 +5,10 @@ var request = require('supertest')
 var app = express();
 
 var users = [		
-	{
-		id: 0,
-		username: 'johndoe'
-	},
-	{
-		id: 1,
-		username: 'janedoe'
-	}
+	{ id: 0, username: 'dave' },
+	{ id: 1, username: 'jessica' },
+	{ id: 2, username: 'simon' },
+	{ id: 3, username: 'sarah'	}
 ];
 
 app.get('/api/users/:id', function (req, res, next) {

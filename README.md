@@ -1,4 +1,5 @@
 # Express Request Bundler
+Express middleware for bundling requests.
 
 [![Build Status](https://travis-ci.org/jonatanpedersen/express-request-bundler.svg?branch=master)](https://travis-ci.org/jonatanpedersen/express-request-bundler)
 

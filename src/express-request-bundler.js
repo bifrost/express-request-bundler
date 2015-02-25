@@ -1,5 +1,5 @@
 /*
-	Express middleware for bundling requests in Express.
+	Express middleware for bundling requests.
 */
 
 var http = require('http');
