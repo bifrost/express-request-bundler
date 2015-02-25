@@ -1,9 +1,10 @@
 language: node_js
 node_js:
-  - "0.12"
+- '0.12'
 deploy:
   provider: npm
-  email: "jp@jonatanpedersen.com"
-  api_key: ""
+  email: jp@jonatanpedersen.com
+  api_key:
+    secure: Z77Y21padJtYCbtOEZzxNLNTAe2XwQXuFzX5uaWrHd28ZVdkdyzQB3mRA3qFr2VGf5qFaF610hWKnKSpr4RfndUqj+hjj4ucPyFOp+849f3L954qIcJqVNuJ92RDZHrcpwI5OTzeHOGyLcrMA+1mIakQW2I0bm+0zESz0Jd6kIc=
   on:
     tags: true

@@ -10,8 +10,6 @@ $ npm install express-request-bundler --save
 
 ## Usage
 
-_Notice_ that express-ab requires the [cookie-parser](https://www.npmjs.org/package/cookie-parser) middleware to remember which variant the user was served.
-
 ```javascript
 
 var app = require('express')();

@@ -66,14 +66,12 @@ function createPromise(options, output, key) {
 
 function errors(statusCodes)  {
 	return statusCodes.filter(function(statusCode) { 
-		console.log(statusCode);
 		return statusCode !== 200; 
 	}) > 0;
 }
 
 var create = function() {
 	return function(request, response, next) {
-		response.setHeader('Content-Type', 'application/json');
 		response.write('{');
 
 		var query = request.query;
